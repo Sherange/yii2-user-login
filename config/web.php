@@ -55,6 +55,9 @@ $config = [
     'modules' => [
         'user' => [
             'class' => 'dektrium\user\Module',
+            'modelMap' => [
+                'RegistrationForm' => 'app\models\dektrium\RegistrationForm'
+            ]
         ],
     ],
     'params' => $params,
