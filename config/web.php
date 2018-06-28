@@ -52,6 +52,11 @@ $config = [
         ],
         */
     ],
+    'modules' => [
+        'user' => [
+            'class' => 'dektrium\user\Module',
+        ],
+    ],
     'params' => $params,
 ];
 
